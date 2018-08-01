@@ -1,7 +1,6 @@
 {
   "name": "spa_back",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThejasP1997/spa_back.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThejasP1997/spa_back/issues"
+  },
+  "homepage": "https://github.com/ThejasP1997/spa_back#readme",
+  "description": ""
 }
