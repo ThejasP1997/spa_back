@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="../doubt/js/app.js" charset="utf-8"></script>
+  </head>
+  <body ng-app="myApp" ng-controller="feedbackController">
+    <ul>
+      <li ng-repeat="f in feedbacks">
+        {{f.name}}
+        {{f.comment}}
+
+
+      </li>
+    </ul>
+  </body>
+</html>
